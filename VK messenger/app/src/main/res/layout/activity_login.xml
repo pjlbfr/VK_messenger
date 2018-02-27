@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_find_friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:ems="10"
+            android:hint="@string/find_friends"
+            android:inputType="textPersonName"/>
+
+        <ImageButton
+            android:id="@+id/btn_Filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.85"
+            app:srcCompat="@drawable/ic_filter_list_black_24dp"
+            android:contentDescription="TODO"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_friends"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6621425d"
+        android:scrollbars="vertical"/>
+</LinearLayout>

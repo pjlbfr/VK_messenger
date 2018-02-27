@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">VK messenger</string>
+    <integer name="com_vk_sdk_AppId">6380881</integer>
+    <string name="find_friends">Начните вводить имя</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="enter_message">Введите сообщение</string>
+    <string name="send_message_ok">Сообщение отправлено!</string>
+    <string name="send_message_error">Сообщение не отправлено!</string>
+    <string name="send">Отправить</string>
+    <string name="error_autorization">Ошибка авторизации!</string>
+    <string name="accesstoken_invalidated">AccessToken invalidated</string>
+    <string name="online">Online</string>
+    <string name="sex">Пол</string>
+    <string name="female">Женский</string>
+    <string name="male">Мужской</string>
+    <string name="param_find">Параметры поиска:</string>
+</resources>
